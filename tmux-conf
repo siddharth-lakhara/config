@@ -1,0 +1,4 @@
+# .tmux.conf
+bind-key b split-window -h -c "#{pane_current_path}"
+bind-key v split-window -c "#{pane_current_path}"
+set -g mouse on
